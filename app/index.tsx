@@ -1,5 +1,6 @@
 import Spacer from "@/components/common/Spacer";
 import Header from "@/components/header/Header";
+import StockList from "@/components/stock/StockList";
 import { Text, View } from "react-native";
 
 export default function Index() {
@@ -7,6 +8,7 @@ export default function Index() {
     <View>
       <Header />
       <Spacer />
+      <StockList />
     </View>
   );
 }

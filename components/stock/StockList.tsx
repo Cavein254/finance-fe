@@ -4,7 +4,11 @@ import StockItem from './StockItem'
 
 const StockList = () => {
   return (
-    <View>
+    <View className='flex gap-2 px-4'>
+      <StockItem />
+      <StockItem />
+      <StockItem />
+      <StockItem />
       <StockItem />
     </View>
   )
