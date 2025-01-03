@@ -1,7 +1,8 @@
-import { View, Text } from 'react-native'
+import { View, Text, Pressable } from 'react-native'
 import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Spacer from '../common/Spacer'
+import { FaBell } from 'react-icons/fa'
 
 const Header = () => {
   return (
@@ -15,11 +16,13 @@ const Header = () => {
                 <Text>Date</Text>
             </View>
             <View>
-                <Text>Notification</Text>
+                <Pressable className='p-2 rounded-full bg-gray-500'>
+                    <FaBell size={24} />
+                </Pressable>
             </View>
         </View>
         <Spacer />
-        
+
       </SafeAreaView>
     </View>
   )
