@@ -1,9 +1,9 @@
 import { View, Text } from 'react-native'
 import React from 'react'
 
-const Spacer = () => {
+const Spacer = ({size}:{size?:number}) => {
   return (
-    <View className='my-8' />
+    <View style={{ marginVertical: size ? size * 4 : 32 }} />
   )
 }
 

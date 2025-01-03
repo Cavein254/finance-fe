@@ -3,17 +3,19 @@ import React from 'react'
 import { SafeAreaView } from 'react-native-safe-area-context'
 import Spacer from '../common/Spacer'
 import { FaBell } from 'react-icons/fa'
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Header = () => {
   return (
-    <View>
-      <SafeAreaView>
-        <View className='flex flex-row  justify-between items-center'>
+    <View className='flex flex-col'>
+        <View className='flex flex-row  justify-between items-center p-4'>
             <View>
-                <Text className='text-red-800 text-3xl'>Title</Text>
+                <Pressable className='p-2 rounded-full bg-gray-500'>
+                <RxHamburgerMenu size={24}/>
+                </Pressable>
             </View>
             <View>
-                <Text>Date</Text>
+                <Text className='text-3xl font-bold'>Home</Text>
             </View>
             <View>
                 <Pressable className='p-2 rounded-full bg-gray-500'>
@@ -22,8 +24,6 @@ const Header = () => {
             </View>
         </View>
         <Spacer />
-
-      </SafeAreaView>
     </View>
   )
 }
