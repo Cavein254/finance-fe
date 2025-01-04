@@ -1,1 +1,1 @@
-export { VictoryBar, VictoryChart, VictoryTheme } from "victory-native";
+export { VictoryBar, VictoryChart, VictoryTheme, Line } from "victory-native";

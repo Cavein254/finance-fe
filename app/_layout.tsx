@@ -1,6 +1,18 @@
-import { Slot } from "expo-router";
-
-// Import your global CSS file
 import "../global.css";
+import React from "react";
+import { Stack } from "expo-router";
 
-export default Slot;
+const RootLayout = () => {
+  return (
+    <Stack>
+      <Stack.Screen
+        name="(tabs)"
+        options={{
+          headerShown: false,
+        }}
+      />
+    </Stack>
+  );
+};
+
+export default RootLayout;

@@ -1,1 +1,7 @@
-export { VictoryBar, VictoryChart, VictoryTheme, VictoryAxis } from "victory";
+export {
+  VictoryBar,
+  VictoryChart,
+  VictoryTheme,
+  VictoryAxis,
+  Line,
+} from "victory";
