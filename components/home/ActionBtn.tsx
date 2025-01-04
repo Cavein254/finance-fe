@@ -25,7 +25,7 @@ const ActionBtn = ({ id, icon, title, onPress }: ActionBtnProps) => {
   return (
     <View className="flex flex-col items-center">
       <Pressable
-        className="py-4 px-8 rounded-full bg-gray-400 hover:bg-gray-600"
+        className="py-4 px-8 rounded-full bg-gray-400 active:bg-gray-600"
         onPress={onPress}
       >
         {icon}

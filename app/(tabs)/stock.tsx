@@ -1,12 +1,11 @@
 import { View, Text } from "react-native";
 import React from "react";
-import { Link } from "expo-router";
-import Stock from "@/pages/Stock";
+import StockList from "@/components/stock/StockList";
 
 const stock = () => {
   return (
     <View>
-      <Stock />
+      <StockList />
     </View>
   );
 };
