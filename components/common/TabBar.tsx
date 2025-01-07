@@ -18,18 +18,18 @@ const TabBar = ({
   const { buildHref } = useLinkBuilder();
   const icons: Record<string, (props: any) => JSX.Element> = {
     home: (props: any) => (
-      <AntDesign name="home" size={28} className="text-gray-600" {...props} />
+      <AntDesign name="home" size={24} className="text-gray-600" {...props} />
     ),
     stock: (props: any) => (
       <AntDesign
         name="linechart"
-        size={28}
+        size={24}
         className="text-gray-600"
         {...props}
       />
     ),
     profile: (props: any) => (
-      <AntDesign name="user" size={28} className="text-gray-600" {...props} />
+      <AntDesign name="user" size={24} className="text-gray-600" {...props} />
     ),
   };
   return (
