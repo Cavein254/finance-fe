@@ -3,5 +3,6 @@ export {
   VictoryChart,
   VictoryTheme,
   VictoryAxis,
+  VictoryLine,
   Line,
 } from "victory";
